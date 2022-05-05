@@ -1,0 +1,12 @@
+{
+  "author": {
+    "name": "dancci"
+  },
+  "name": "impractical",
+  "dependencies": {},
+  "devDependencies": {},
+  "license": "MIT",
+  "main": "main.js",
+  "scripts": {},
+  "version": "1.0.0"
+}
