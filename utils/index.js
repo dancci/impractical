@@ -1,1 +1,3 @@
-export * from './getLinedUpChart';
+import getLinedUpChar from './getLinedUpChar';
+
+export { getLinedUpChar };

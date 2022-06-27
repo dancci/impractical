@@ -1,10 +1,10 @@
 /**
- * get lined up chart
+ * get lined up char
  * @param length {number}
  * @param alphabet {string}
  * @returns {string[]}
  */
-function getLinedUpChart(length = 4, alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
+function getLinedUpChar(length = 4, alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
   const len = alphabet.length;
   const alphabetArr = alphabet.split('');
   const result = [];
@@ -28,4 +28,4 @@ function getLinedUpChart(length = 4, alphabet = 'ABCDEFGHIJKLMNOPQRSTUVWXYZ') {
   return result;
 }
 
-export default getLinedUpChart;
+export default getLinedUpChar;
